@@ -1,0 +1,66 @@
+#confidance interval--> it is the amount of uncertainity
+or
+it is the measurement of how much you are confident on your result based on your 
+analysis.
+steps.
+1.set the confidance interval
+1.1 confidance interval can be set as 
+99%,95%,90%----> 95%
+1.2 subtract it from 100%
+100%-95%=5%
+1.3 convert the result into decimal
+5%=0.05
+1.4 sutract it from 1 and devided by 2
+1= area under the curve
+critical value --> the value which divides your data into two parts one is confident another is non confident
+
+1-(0.05/2)= 0.975
+
+1-alpha=0.975
+
+
+2.find out the mean of data
+mean=np.mean(data)
+
+3.find out the standard deviation
+sd=np.std(data)
+
+4.find out margin of error
+z=(1-alpha)*sd/sqrt(n)
+
+where sd ---standard deviation
+n- total no of data
+z-population parameter
+
+5.find out ci
+ci=mean+- moe
+
+6.find out range
+ciupper =mean+moe
+cilower=mean-moe
+range=ciupper-cilower
+
+population parameter--> whole dataset
+sample parameter--> some value from dataset
+
+
+
+for sample parameter
+
+moe = t(1-alpha)(n-1)*sd/sqrt(n)
+
+where n-1 is degree of freedom
+
+rest process will be same
+
+
+
+
+
+
+
+
+
+
+
+

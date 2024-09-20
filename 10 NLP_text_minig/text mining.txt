@@ -1,0 +1,130 @@
+introduction to text mining--it is process of exploring and analysing large amount of unstructured data 
+also known as text analysis
+
+goal--- to discover relevent information in text by transforming the data.
+
+we wii extract data from website then convert it into structured format.
+it is an umberlla pattern
+20% structured data
+80% unstructured data
+
+applications of text mining
+
+ex--email,speech,interviews,call track.
+speech recognition.ex--google assistance
+sentiment analysis--reviews
+machine translate--ex--google translate
+advertising machine--ex--popup windows
+chat bot(chatting with robot)--
+
+this is a sentence.---different words
+
+"this"---word--token/single
+"is"
+"a"
+"sentence"
+
+this process is called tokenization.
+
+data collection>>text pairsing>>text filtering>>text transformation>>text mining
+1.we can collect data froma any website using webscraping ,or we can also use past data.
+where ---it is the process extracting the text from any website using http or any web browser.
+protocol---set of rules--
+bluetooth,wifi
+web browser--chrome driver.
+
+2.text pairsing--extract the words from any paragraph.
+stemming/lammenization--finding the root words.
+this is a good play.
+she is playing badminton.
+i have just played cricket.
+play
+playing
+played---root word---play
+
+converting the words
+stopwords--i,me,my myself,you ,yourself-------
+
+
+removing the grammer words
+the quick brown fox jumps over the lazy dog.
+ex....
+the
+over 
+the
+
+3.text filtering--take all the words .
+
+4.text transformation--
+bag of words-frequency--how many a words a repeat.
+ex---this is a good pen u should also buy this pen u should buy today itself.
+this-2
+u-2
+pen-2
+should-2
+buy-2
+----
+document--each row of unstructure data is called document
+corpus--set of the document is called corpus.
+transformation---dtm--document term matrix
+	tweet1	tweet2	tweet3
+term1	0	3	5
+term2
+term3
+
+tdm--term document matrix
+
+	term1	term2	term3
+t1
+t2
+t3
+
+entity recognization:-
+Google Ceo Sundar Pichai is going to introduce new Camera of google at minnesota.
+Google:- Organization
+Sundar Pichai--person
+Ceo-rank
+Camera-product
+Minnesota:-location
+
+
+text mining--regression,classification,prediction,clustering.
+wordcloud---it is an algorithm to reprsent text data in which the size of each indicates the frequency of the word.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

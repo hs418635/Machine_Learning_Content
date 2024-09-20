@@ -1,0 +1,40 @@
+correlation:- it states the relationship between two continuous and statistical variables.
+
+types:-
+1.cross correlation:- in this we find out the relationship bewteen two different variable
+if x is a variable and y is a variable so cross correlation will be
+
+corr =x**y
+
+student1 and student2
+
+2.auto correlation:- in this we find out the relaship between two different proprities of
+a variable.
+
+corr  x**x
+
+student --> academic and sports
+
+Types on value
+
+positive correlation -- > 0
+negative correlation -- <0
+no correlation =0
+
+based on graphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
